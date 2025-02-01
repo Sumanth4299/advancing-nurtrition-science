@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Science</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ADVANCED NUTRITION SCIENCE</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#suggest">Suggest</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>Search Nutrition Information</h2>
+            <form id="search-form" action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" id="search-query" name="q" placeholder="Search for food nutrition..." required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section class="food-suggestions">
+            <h2>Nutritious Food Suggestions</h2>
+            <div class="food-card">
+                <a href="https://www.google.com/search?q=nutrition+of+chicken" target="_blank">
+                    <img src="chicken.avif " alt="Chicken">
+                    <p>Chicken</p>
+                </a>
+            </div>
+            <div class="food-card">
+                <a href="https://www.google.com/search?q=nutrition+of+meat" target="_blank">
+                    <img src="meat.webp" alt="Meat">
+                    <p>Meat</p>
+                </a>
+            </div>
+            <div class="food-card">
+                <a href="https://www.google.com/search?q=nutrition+of+carrot" target="_blank">
+                    <img src="carrot.webp" alt="Carrot">
+                    <p>Carrot</p>
+                </a>
+            </div>
+            <div class="food-card">
+                <a href="https://www.google.com/search?q=nutrition+of+cabbage" target="_blank">
+                    <img src="cabbage.jpg" alt="Cabbage">
+                    <p>Cabbage</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="about">
+            <h3>About Us</h3>
+            <p>We provide comprehensive information on the nutrition of various foods, aiming to help you make informed dietary choices.</p>
+        </section>
+
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>For inquiries, please email us at <a href="mailto:support@nutritionscience.com">support@nutritionscience.com</a></p>
+        </section>
+
+        <section id="suggest">
+            <h3>Suggest a Food</h3>
+            <p>If you have suggestions for new foods to add to our database, please contact us!</p>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
